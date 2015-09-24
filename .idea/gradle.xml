@@ -10,7 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/Yamba1" />
+            <option value="$PROJECT_DIR$/Yamba2" />
           </set>
         </option>
       </GradleProjectSettings>
