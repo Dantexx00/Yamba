@@ -1,2 +1,5 @@
-include ':Yamba1'
+include ':Yamba1', ':Yamba4', ':Yamba5'
 include ':Yamba2'
+include ':Yamba3'
+project(':Yamba4').projectDir = new File('Yamba4 - Services')
+project(':Yamba5').projectDir = new File('Yamba5-List & Adapters')

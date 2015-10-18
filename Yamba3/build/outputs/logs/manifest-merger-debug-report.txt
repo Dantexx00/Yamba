@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:2:1-35:12
+	xmlns:android
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:7:5-33:19
+MERGED from [com.newcircle:yamba-client:2.0.0] C:\Users\Santy\Desktop\Yamba\Yamba3\build\intermediates\exploded-aar\com.newcircle\yamba-client\2.0.0\AndroidManifest.xml:11:5-14:19
+	android:label
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:10:9-41
+	android:allowBackup
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:9:9-39
+	android:theme
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:11:9-40
+activity#co.edu.udea.cmovil.gr02.yamba.StatusActivity
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:14:13-50
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:13:13-43
+intent-filter#android.intent.category.DEFAULT+com.newcircle.android.yamba.action.tweet
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:15:13-19:29
+action#com.newcircle.android.yamba.action.tweet
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:16:17-83
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:16:25-80
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:18:27-73
+activity#co.edu.udea.cmovil.gr02.yamba.SettingsActivity
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:21:9-24:20
+	android:label
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:23:13-52
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:22:13-45
+activity#co.edu.udea.cmovil.gr02.yamba.MainActivity
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:25:9-32:20
+	android:label
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:29:17-68
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.newcircle:yamba-client:2.0.0] C:\Users\Santy\Desktop\Yamba\Yamba3\build\intermediates\exploded-aar\com.newcircle\yamba-client\2.0.0\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Santy\Desktop\Yamba\Yamba3\src\main\AndroidManifest.xml

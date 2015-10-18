@@ -31,7 +31,7 @@ import com.thenewcircle.yamba.client.YambaClient;
  */
 public class StatusFragment extends Fragment {
 
-    private final static String TAG = StatusActivity.class.getSimpleName();
+    private final static String TAG = "statusFragents";
     private Button mButtonTweet;
     private EditText mTextStatus;
     private TextView mTextCount;
@@ -62,7 +62,7 @@ public class StatusFragment extends Fragment {
                 String status=mTextStatus.getText().toString();
                 PostTask postTask=new PostTask();
                 postTask.execute(status);
-                Log.d(TAG,"onClicked");
+                Log.d(TAG,"onClicked button");
             }
         });
         mTextStatus.addTextChangedListener(new TextWatcher() {
@@ -87,7 +87,7 @@ public class StatusFragment extends Fragment {
                 }
             }
         });
-        Log.d(TAG, "onCreated");
+        Log.d(TAG, "onCreatedView");
         return v;
     }
     //Método para postear
