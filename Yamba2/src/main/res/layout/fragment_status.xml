@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="@string/status_button_tweet"/>
+        android:text="@string/status_button_tweet"
+        android:typeface="sans" />
     <EditText
         android:id="@+id/status_text"
         android:layout_width="match_parent"

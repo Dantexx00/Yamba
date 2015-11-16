@@ -31,7 +31,7 @@ import com.thenewcircle.yamba.client.YambaClient;
  */
 public class StatusFragment extends Fragment {
 
-    private final static String TAG = "statusFragents";
+    private final static String TAG = "statusFragments";
     private Button mButtonTweet;
     private EditText mTextStatus;
     private TextView mTextCount;
@@ -90,15 +90,6 @@ public class StatusFragment extends Fragment {
         Log.d(TAG, "onCreatedView");
         return v;
     }
-    //Método para postear
-    /*public void postear(View v){
-        String status = mTextStatus.getText()+"";
-        progress=new ProgressDialog(this);
-        new PostTask().execute(status);
-        Log.d(TAG, "onClicked");
-        InputMethodManager input=(InputMethodManager)v.getgetSystemService(Context.INPUT_METHOD_SERVICE);
-        input.hideSoftInputFromWindow(mTextStatus.getWindowToken(), 0);
-    }*/
     //Metodo para deshabilitar el boton cuando no se ha copiado nada.
     public void deshabiltar_boton(){
         mButtonTweet.setEnabled(false);

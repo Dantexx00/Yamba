@@ -38,33 +38,15 @@ public class StatusActivity extends Activity {
         mTextStatus = (EditText) findViewById(R.id.status_text);
         mTextCount = (TextView) findViewById(R.id.status_text_count);
         mTextCount.setText(Integer.toString(140));
-        mDefaultColor = mTextCount.getTextColors().getDefaultColor();
+        //mDefaultColor = mTextCount.getTextColors().getDefaultColor();
         deshabiltar_boton();
     }
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_status, menu);
         return true;
     }
-
-    /*@Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }*/
-
     //Método para postear
     public void postear(View v){
         String status = mTextStatus.getText()+"";
@@ -111,7 +93,6 @@ public class StatusActivity extends Activity {
             }
         });
     }
-
     //Subclase para postear
     class PostTask extends AsyncTask<String, Void, String>{
 
@@ -147,5 +128,4 @@ public class StatusActivity extends Activity {
                 Toast.makeText(StatusActivity.this, result, Toast.LENGTH_LONG).show();
         }
     }
-
 }

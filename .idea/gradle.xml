@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/Yamba3" />
             <option value="$PROJECT_DIR$/Yamba4 - Services" />
             <option value="$PROJECT_DIR$/Yamba5-List &amp; Adapters" />
+            <option value="$PROJECT_DIR$/Yamba6-Broadcast receiver" />
           </set>
         </option>
       </GradleProjectSettings>
